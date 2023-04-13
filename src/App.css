@@ -1,38 +1,141 @@
-.App {
+/* For Login Page */
+/* .app{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board{
+  flex: 2;
+  background-color: black;
+  height: 100vh;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.form-control{
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat' sans-serif;
+  background: #F5F5F5;
+}
+
+.sign-in h2{
+  font-size: 2.3rem;
+}
+
+.sign-in p{
+  margin-top: -1.6rem;
+}
+
+.social-media{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sign-in-apple{
+  margin-left: 2rem;
+}
+
+.sign-in-google, .sign-in-apple{
+  background: #FFFFFF;
+  padding: 0.4rem 0.7rem;
+  border-radius: 20px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.icons{
+  position: relative;
+  top: 2px;
+  margin-right: 1rem;
+}
+
+.form-group{
+  padding: 2rem;
+  border-radius: 15px;
+  background: #FFFFFF;
+  margin-top: 1.5rem;
+}
+
+.form-group input{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none; 
+  background: #F5F5F5;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.forgot-password{
+  color: #346BD4;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sign-in-button button{
+  width: 105%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: none; 
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-here{
+  margin-top: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.register-here span{
+  color: #346BD4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 700px){
+  .board{
+    display: none;
+  }
+
+  .form-control{
+    height: 100vh;
+  }
+
+  .sign-in{
+    text-align: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 411px){
+  .social-media{
+    display: grid;
   }
-  to {
-    transform: rotate(360deg);
+
+  .sign-in-google{
+    text-align: center;
+    margin-left: 1.8rem;
   }
-}
+
+  .sign-in-apple{
+    margin-top: 1rem;
+    text-align: center;
+  }
+} */

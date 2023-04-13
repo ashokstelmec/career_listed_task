@@ -1,0 +1,145 @@
+/* For Login Page */
+.app{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .board{
+    flex: 2;
+    background-color: black;
+    height: 100vh;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .form-control{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat' sans-serif;
+    background: #F5F5F5;
+  }
+  
+  .sign-in h2{
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+  
+  .sign-in p{
+    margin-top: -1.0 rem;
+    margin-bottom: 0.7rem;
+  }
+  
+  .social-media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .sign-in-apple{
+    margin-left: 2rem;
+  }
+  
+  .sign-in-google, .sign-in-apple{
+    background: #FFFFFF;
+    padding: 0.4rem 0.7rem;
+    border-radius: 20px;
+    opacity: 0.6;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .icons{
+    position: relative;
+    top: 2px;
+    margin-right: 1rem;
+  }
+  
+  .form-group{
+    padding: 2rem;
+    border-radius: 15px;
+    background: #FFFFFF;
+    margin-top: 1.5rem;
+  }
+  
+  .form-group input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none; 
+    background: #F5F5F5;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .forgot-password{
+    color: #346BD4;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .sign-in-button button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: none; 
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .register-here{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.register-here span{
+    color: #346BD4;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 770px){
+    .board{
+      display: none;
+    }
+  
+    .form-control{
+      height: 100vh;
+    }
+  
+    .sign-in{
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 411px){
+    .social-media{
+      display: grid;
+    }
+  
+    .sign-in-google{
+      text-align: center;
+      margin-left: 1.8rem;
+    }
+  
+    .sign-in-apple{
+      margin-top: 1rem;
+      text-align: center;
+    }
+  }
